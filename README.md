@@ -1,158 +1,147 @@
-# ☕ Java Learning Repository
+# 📚 Data Structures in Java
 
 ![Java](https://img.shields.io/badge/Java-17+-orange?style=for-the-badge\&logo=openjdk)
+![DSA](https://img.shields.io/badge/Data%20Structures-Java-blue?style=for-the-badge)
 ![Status](https://img.shields.io/badge/Status-Learning-success?style=for-the-badge)
 ![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
 
 ## 📖 Overview
 
-This repository contains my Java programming journey, covering fundamental programming concepts, data structures, object-oriented programming, and hands-on practice programs. It serves as a learning resource to strengthen problem-solving skills and build a solid foundation for Java development.
+This repository contains my implementations and practice programs for **Data Structures using Java**. It focuses on understanding fundamental data structures through hands-on coding, including arrays, multidimensional arrays, jagged arrays, dynamic arrays (`ArrayList`), string manipulation, and supporting Java concepts that form the basis for Data Structures and Algorithms (DSA).
 
 ---
 
-## 🎯 Learning Objectives
+## 🎯 Objectives
 
-* Learn Java fundamentals
-* Practice object-oriented programming
-* Work with arrays and collections
-* Understand string manipulation
-* Improve logical thinking
-* Prepare for Data Structures & Algorithms
+* Learn core Data Structures using Java
+* Understand array operations and memory concepts
+* Practice multidimensional data structures
+* Explore Java Collections
+* Strengthen logical thinking and problem-solving
+* Build a strong foundation for advanced DSA
 
 ---
 
 ## 🛠️ Technologies Used
 
 * Java (JDK 17+)
-* IntelliJ IDEA / VS Code
+* VS Code / IntelliJ IDEA
 * Git & GitHub
 
 ---
 
 ## 📚 Topics Covered
 
-### 🔹 Java Basics
+### 📌 Arrays
 
-* Variables & Data Types
-* Type Casting
-* Unicode Characters
-* Console Output
+* Array Declaration & Initialization
+* Traversing Arrays
+* Insert Operation
+* Update Operation
+* Delete Operation
+* Searching Elements
+* Array Length
 
-### 🔹 User Input
+### 📌 Array Manipulation
 
-* Scanner Class
-* Reading Strings
-* Reading Numbers
-* Parsing Input
+* Insert with Shifting
+* Delete with Shifting
+* Element Replacement
+* Traversal Techniques
 
-### 🔹 Operators
+### 📌 Two-Dimensional Arrays
 
-* Arithmetic Operators
-* Unary Operators
-* Assignment Operators
+* Matrix Creation
+* Matrix Traversal
+* Row & Column Operations
+* Matrix Updates
 
-### 🔹 Loops
+### 📌 Jagged Arrays
 
-* while Loop
-* continue Statement
-* Loop Control
+* Dynamic Row Sizes
+* Jagged Array Traversal
+* Memory Representation
 
-### 🔹 Functions & Methods
+### 📌 ArrayList
+
+* Dynamic Arrays
+* Add Elements
+* Update Elements
+* Remove Elements
+* Insert at Specific Index
+
+### 📌 Strings
+
+* String Methods
+* String Formatting
+* String Comparison
+* Substring
+* Split Operation
+* Email Parsing
+
+### 📌 Functions & Methods
 
 * Method Declaration
 * Parameters
 * Return Values
-* Method Calling
-* Pass by Value
+* Method Reusability
 
-### 🔹 Strings
+### 📌 Supporting Java Concepts
 
-* String Methods
-* String Comparison
-* String Formatting
-* Splitting Strings
-* Substring
-* Email Parsing
-
-### 🔹 Arrays
-
-* One-Dimensional Arrays
-* Traversal
-* Update & Delete
-* Insert with Shifting
-* Delete with Shifting
-
-### 🔹 Two-Dimensional Arrays
-
-* Matrix Creation
-* Matrix Traversal
-* Row Access
-* Update Operations
-
-### 🔹 Jagged Arrays
-
-* Dynamic Row Sizes
-* Traversing Jagged Arrays
-
-### 🔹 Collections
-
-* ArrayList
-* Insert
-* Update
-* Remove
-* Insert with Index
-
-### 🔹 Object-Oriented Programming
-
-* Classes & Objects
-* Methods
-* Object References
-* Practice Programs
+* Variables & Data Types
+* Scanner Class
+* Loops
+* Operators
+* Basic Object-Oriented Programming
 
 ---
 
 ## 📂 Repository Structure
 
 ```text
-Java/
+Data-Structure/
+│
+├── Arrays/
+│   ├── Main.java
+│   ├── ArraywithShifting.java
+│   ├── My2DArray.java
+│   └── JaggedArray.java
+│
+├── Collections/
+│   └── MyArrayList.java
+│
+├── Strings/
+│   ├── Main.java
+│   └── MyStrings.java
+│
+├── Functions/
+│   └── MyFunction.java
 │
 ├── Basics/
-├── Input_Output/
-├── Operators/
-├── Loops/
-├── Functions/
-├── Strings/
-├── Arrays/
-├── TwoD_Arrays/
-├── Jagged_Arrays/
-├── ArrayList/
-├── OOP/
+│   ├── myfirstprogram.java
+│   ├── Loop.java
+│   └── MyTemp.java
+│
 └── README.md
 ```
 
 ---
 
-## 🚀 How to Run
+## 🚀 Getting Started
 
-Clone the repository:
-
-```bash
-git clone https://github.com/nigamkumar3435-spec/java.git
-```
-
-Navigate to the project:
+### Clone the Repository
 
 ```bash
-cd java
+git clone https://github.com/nigamkumar3435-spec/Data-Structure.git
 ```
 
-Compile a Java program:
+### Compile a Java File
 
 ```bash
 javac FileName.java
 ```
 
-Run the program:
+### Run the Program
 
 ```bash
 java FileName
@@ -160,16 +149,18 @@ java FileName
 
 ---
 
-## 💡 Skills Gained
+## 🎯 Concepts Practiced
 
-* Java Fundamentals
-* Object-Oriented Programming
-* Arrays & Collections
+* Arrays
+* Array Shifting
+* Matrix Operations
+* Jagged Arrays
+* Dynamic Arrays (ArrayList)
 * String Manipulation
-* Problem Solving
-* Logical Thinking
+* Functions
 * User Input Handling
-* Code Organization
+* Basic Object-Oriented Programming
+* Problem Solving
 
 ---
 
@@ -178,17 +169,9 @@ java FileName
 ```text
 Java Basics
       ↓
-Variables & Data Types
-      ↓
-Operators
-      ↓
-Loops
-      ↓
-Functions
-      ↓
-Strings
-      ↓
 Arrays
+      ↓
+Array Operations
       ↓
 2D Arrays
       ↓
@@ -196,27 +179,42 @@ Jagged Arrays
       ↓
 ArrayList
       ↓
-Object-Oriented Programming
+Strings
       ↓
-Data Structures
+Searching
+      ↓
+Sorting
+      ↓
+Linked List
+      ↓
+Stack
+      ↓
+Queue
+      ↓
+Trees
+      ↓
+Graphs
 ```
 
 ---
 
 ## 🔮 Future Topics
 
-* Inheritance
-* Polymorphism
-* Abstraction
-* Interfaces
-* Exception Handling
-* File Handling
-* Collections Framework
-* Generics
-* Multithreading
-* JDBC
-* Data Structures & Algorithms
-* Spring Boot
+* Linked List
+* Stack
+* Queue
+* Circular Queue
+* Deque
+* HashMap
+* HashSet
+* Trees
+* Binary Search Tree
+* Heap
+* Graphs
+* Searching Algorithms
+* Sorting Algorithms
+* Recursion
+* Time & Space Complexity
 
 ---
 
@@ -227,13 +225,13 @@ Data Structures
 🎓 B.Tech – Computer Science Engineering
 🏫 Indore Institute of Science and Technology, Indore
 
-* GitHub: https://github.com/nigamkumar3435-spec
-* LinkedIn: https://www.linkedin.com/in/nigam-kumar01
+* **GitHub:** https://github.com/nigamkumar3435-spec
+* **LinkedIn:** https://www.linkedin.com/in/nigam-kumar01
 
 ---
 
 ## ⭐ Support
 
-If you found this repository helpful, please consider giving it a ⭐ on GitHub.
+If you found this repository useful, please consider giving it a ⭐ on GitHub.
 
-**Happy Coding! ☕🚀**
+Happy Coding and Keep Learning Data Structures! 🚀
